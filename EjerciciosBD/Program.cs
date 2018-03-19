@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace EjerciciosBD
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo!");
+            var guid = Guid.NewGuid();
+            Console.Write(guid.ToString());
+            Console.ReadKey();
         }
     }
 }
