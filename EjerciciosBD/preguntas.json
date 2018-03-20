@@ -1,0 +1,8 @@
+﻿{
+  "questions": [
+    {"id":"1","Pregunta": "Inserta una pizza"},
+    { "id":"2", "Pregunta":"Selecciona una pizza" },
+    { "id":"3", "Pregunta":"Actualiza una pizza" },
+    { "id":"4", "Pregunta":"Borra una pizza" }
+  ]
+}
