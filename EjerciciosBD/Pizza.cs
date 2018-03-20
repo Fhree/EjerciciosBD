@@ -8,7 +8,19 @@ namespace EjerciciosBD
 {
     public class Pizza
     {
+        public int Id { get; set; }
         public String Name { get; set; }
+
+        public Pizza()
+        {
+
+        }
+
+        public Pizza(int id, String name)
+        {
+            Id = id;
+            Name = name;
+        }
 
         public String getPrecio()
         {
@@ -23,7 +35,7 @@ namespace EjerciciosBD
 
         public List<Ingrediente> getIngredientes()
         {
-            //TODO 
+            
             return null;
         }
 
